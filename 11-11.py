@@ -36,13 +36,19 @@ print ("string")
 #5) Fix the formating of the last question
 
 #6) 3>4 
-
+print (3>4)
+print ("integer")
 #7) 5!=5 
-
+print (5!=5)
+print ("boolean")
 #8) 5=5
-
+print ("boolean")
 #9) True and False
-
+print ("True and False")
+print (True and False)
 #10) True or False
-
+print (True or False)
+print ("boolean")
 #11) 3!=5 and 5==5
+print (3!=5 and 5==5)
+print ("boolean")

@@ -15,6 +15,8 @@ operation = input("Do you want to add or subtract?")
 ## 3) Ask the user for their 2 numbers and store them into memory.
 number1 = input("Choose your first number.")
 number2 = input ("Choose your second number")
+number1 = float(number1)
+number2 = float(number2)
 
 ## 4) Using an if statement, perform either subtraction or addtion on the 2 numbers.
 if operation == "+":

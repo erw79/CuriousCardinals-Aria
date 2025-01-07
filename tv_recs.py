@@ -6,8 +6,6 @@ def ask_question(question):
     else:
         print ("invalid answer")
         return
-# Provide a recomendation based on the users answers.
-def give_recomendation(question1, question2, question3, recomendation):
 
 
  #print instructions
@@ -61,26 +59,44 @@ answer3 = ask_question ("How many seasons?")
 
 # If BBA choosen
 
+
 #If BBB choosen
+
 
 #If BBC choosen
 
+
 #If BCA choosen
+
 
 #If BCB choosen
 
+
 #If BCC choosen
+
 
 # If CAA choosen
 
+
 #If CAB choosen
+
 
 # If CAC choosen
 
+
 #If CBA choosen
+
 
 #If CBB choosen
 
+
 #If CBC choosen
 
-# 
+
+# If CCA choosen
+
+
+# If CCB choosen
+
+
+## If CCC choosen

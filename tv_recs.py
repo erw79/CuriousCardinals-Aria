@@ -1,14 +1,15 @@
 # Asks the question and checks if the answer is valid.
+
 def ask_question(question):
-   corect_answer = True
-   while corect_answer:
+
+    corect_answer = True
+    while corect_answer:
         answer = input(question)
         if answer == "a" or answer == "b" or answer == "c":
             corect_answer = False
       
         else:
             print ("invalid answer")
-      
     return answer 
 d = {}
 d ["aaa"] = "Nobody Wants This"

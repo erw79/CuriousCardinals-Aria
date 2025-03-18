@@ -40,7 +40,7 @@ print("My Guess: 0")
 # Utilize loops, if statements etc. !!
 number = 0
 for i in range(50):
-    number + 1 
+    number += 1 
     if number % 3 == 0:
         print("Fizz")
     if number % 5 == 0:

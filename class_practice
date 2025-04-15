@@ -13,6 +13,11 @@ class Book:
 
 # Your task: Use the methods of the Book class
 
+book = Book ("1984","George Orwell", 328)
 # Create a Book object for "1984" by George Orwell, 328 pages
 # Print the summary
+print(book.summary())
 #Check if the book is long and print a message accordingly
+print(book.is_long())
+if book.is_long():
+    print("The book is longer than 300 pages")

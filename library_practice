@@ -1,0 +1,8 @@
+# Practice: Working with datetime
+# use the datetime library to do
+
+# 1: Get the current date and store it in a variable
+
+# 2: Print today's date in the format "YYYY-MM-DD"
+
+# 3: Print how many days are left until December 31st of this year

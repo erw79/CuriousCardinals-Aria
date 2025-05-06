@@ -1,8 +1,9 @@
 
 class BankAccount:
-    def __init__(self, owner, balance):
+    def __init__(self, owner, balance, account_type):
         self.owner = owner
         self.balance = balance
+        self.account_type = account_type
 
     def deposit(self, amount):
         self.balance += amount
@@ -20,9 +21,6 @@ class BankAccount:
 
 # 20 predefined accounts
 accounts = [
-    BankAccount("Alice", 100, "checking"),
-    BankAccount("Bob", 200, "savings"),
-    BankAccount("Charlie", 300, "savings"),
     BankAccount("Diana", 400, "checking"),
     BankAccount("Ethan", 500, "savings"),
     BankAccount("Fiona", 600, "checking"),
@@ -39,7 +37,27 @@ accounts = [
     BankAccount("Quinn", 1700, "savings"),
     BankAccount("Rita", 1800, "checking"),
     BankAccount("Sam", 1900, "savings"),
-    BankAccount("Tina", 2000, "checking")
-]
+    BankAccount("Tina", 2000, "checking"),
+   
 
 # Code Starts Here
+    BankAccount("Alice", 100, "checking"),
+    BankAccount("Bob", 200, "savings"),
+    BankAccount("Charlie", 300, "savings"),
+    BankAccount("Charlie", 100, "checking")
+]
+bob_saving = BankAccount("Bob", 200, "savings")
+charlie_saving = BankAccount("Charlie", 300, "savings")
+alice_checking = BankAccount("Alice", 100, "checking")
+charlie_checking = BankAccount("Charlie", 100, "checking")
+bob_saving.deposit(200)
+charlie_saving.deposit(300)
+alice_checking.withdraw(50)
+charlie_checking.withdraw(80)
+
+# for acc in accounts:
+if bob_saving.account_type == "savings":
+    bob_balance =(105/100) * bob_saving.balance 
+    bob_saving.balance =  bob_balance
+    print (bob_balance)
+
